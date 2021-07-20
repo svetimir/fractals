@@ -1,7 +1,7 @@
 #   ANIMATED FRACTAL DRAWING FUNCTIONS
-#   AUTHOR: fluxoid, ifi@yandex.ru
-#   VERSION: 0.0.0.1
-#   LATEST REVISION: 01.07.2017
+#   AUTHOR: Georgy Yashin, ifi@yandex.ru
+#   VERSION: 0.1.1
+#   LATEST REVISION: 20.07.2021, 01.07.2017
 
 import turtle
 import time
@@ -58,7 +58,7 @@ def draw_fern():
     x=1.0
     y=0
     tmp=x
-    steps=1e4
+    steps=1e3
     scale=27
     for i in range(0,int(steps)):
         r=random.randint(0,100)

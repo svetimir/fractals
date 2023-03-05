@@ -78,4 +78,5 @@ def draw_fern():
         draw_point(scale*x,scale*y,'blue')
     return 0
 
-draw_fern()
+if __name__=="__main__":
+    draw_fern()
